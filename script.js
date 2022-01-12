@@ -42,7 +42,7 @@ let appendList = document.querySelector("ul").appendChild(li);
 
 let listOl = document.querySelectorAll("ol li");
 for (let i = 0; i < listOl.length; i++) {
-  listOl[i].style.backgroundcolor = "green";
+  listOl[i].style.backgroundColor = "green";
 }
 
 // #13 Remove the div with a class of footer.
